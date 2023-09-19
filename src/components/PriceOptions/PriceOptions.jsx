@@ -13,7 +13,7 @@ const PriceOptions = () => {
               "Complimentary fitness assessment",
               "Access to select group fitness classes"
             ],
-            "price": "$30/month"
+            "price": 30
           },
           {
             "id": 2,
@@ -26,7 +26,7 @@ const PriceOptions = () => {
               "Discounts on personal training sessions",
               "Access to exclusive member events"
             ],
-            "price": "$50/month"
+            "price": 50
           },
           {
             "id": 3,
@@ -38,7 +38,7 @@ const PriceOptions = () => {
               "Discounts on family activities and events",
               "Complimentary family fitness assessment"
             ],
-            "price": "$80/month"
+            "price": 80
           },
           {
             "id": 4,
@@ -49,7 +49,7 @@ const PriceOptions = () => {
               "Discounts on select group classes",
               "Free student fitness workshops"
             ],
-            "price": "$25/month"
+            "price": 25
           }
         ]
      
@@ -57,7 +57,7 @@ const PriceOptions = () => {
     return (
         <div  className="m-12">
             <h2 className="text-5xl">Best Price in the town</h2>
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-3 gap-6">
             {
               priceOptions.map(option =>
                  <PriceOption key={option.id} option={option}></PriceOption>)  
