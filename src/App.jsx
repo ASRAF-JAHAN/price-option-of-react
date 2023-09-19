@@ -9,11 +9,12 @@ function App() {
     return (
     <>
     <NavBar></NavBar>
+    <Phones></Phones>
     {/* <DaisyNav></DaisyNav> */}
       <h1 className='text-7xl bg-rose-500'>Vite + React</h1>
      <PriceOptions></PriceOptions>
      <LineChart></LineChart>
-     <Phones></Phones>
+     
   
     </>
   )
